@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>My Flutter Web App</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="description" content="A new Flutter project." />
+  <meta name="theme-color" content="#000000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="icons/Icon-192.png" />
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+<script>
+      window.addEventListener('load', function () {
+        window.flutterLoader.load({
+          entrypointUrl: "main.dart.js"
+        }).then(function (engineInitializer) {
+          return engineInitializer.initializeEngine();
+        }).then(function (appRunner) {
+          return appRunner.runApp();
+        });
+      });
+    </script>
+</body>
+</html>

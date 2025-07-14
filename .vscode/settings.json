@@ -1,0 +1,8 @@
+{
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    }
+}
